@@ -1,11 +1,11 @@
 ﻿using CollegeApp.Enums;
-using System.Text.RegularExpressions;
 
 namespace CollegeApp.Models
 {
     public class Student
     {
         public int Id { get; set; }
+        public required ApplicationUser User { get; set; }
         public GenderEnum Gender { get; set; }
         public DateOnly Birthday { get; set; }
         public DateOnly StartDate { get; set; }
