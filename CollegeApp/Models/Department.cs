@@ -1,9 +1,8 @@
 ﻿namespace CollegeApp.Models
 {
-    public class Curs
+    public class Department
     {
         public int Id { get; set; }
-        public int KursNumber { get; set; }
-
+        public string Name { get; set; } = null!;
     }
 }

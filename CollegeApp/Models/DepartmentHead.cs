@@ -1,11 +1,10 @@
 ﻿namespace CollegeApp.Models
 {
-    public class Curator
+    public class DepartmentHead
     {
         public int Id { get; set; }
-        public int GroupId { get; set; }
-        public Group Group { get; set; } = null!;
+        public int DepartmentId { get; set; }
         public ApplicationUser User { get; set; } = null!;
-
+        public Department Department { get; set; } = null!;
     }
 }
