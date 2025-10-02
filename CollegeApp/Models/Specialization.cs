@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
         public string Name { get; set; } = null!;
+        public int DepartmentId { get; set; }
+        public Department Department { get; set; } = null!;
         public ICollection<Group> Groups { get; set; } = new List<Group>();
         public ICollection<Subject> Subjects { get; set; } = new List<Subject>();
 

@@ -8,5 +8,5 @@
         public int SubjectId { get; set; }
         public Subject Subject { get; set; } = null!;
     }
-
+    
 }
